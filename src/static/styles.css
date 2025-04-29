@@ -74,6 +74,10 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card p:last-of-type {
+  margin-bottom: 10px; /* Add spacing between the last paragraph and the participants list */
+}
+
 .activity-card ul {
   margin-top: 10px;
   padding-left: 20px;
@@ -84,6 +88,7 @@ section h3 {
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  line-height: 1.4; /* Ensure proper spacing between list items */
 }
 
 .form-group {
